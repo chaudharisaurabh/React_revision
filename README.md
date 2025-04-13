@@ -11,8 +11,7 @@ Description : This repository aims for revision of react basics followed by Next
 |Sl. no.|Topic Name|Link to notes|
 --|---|---|
 |01|Introduction|[Introduction](./React/Notes/Introduction.md)|
-|02|Hello world|[Hello world](./React/Notes/HelloWorld.md)
-
+|02|Fundamentals|[Fundamentals](./React/Notes/HelloWorld.md)|
 
 
 ### NextJs
