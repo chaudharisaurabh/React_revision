@@ -91,7 +91,26 @@ Class
 
 ## JSX
 
-Javascript xml 
+JSX (JavaScript XML) is a syntax extension for JavaScript used with React to describe what the UI should look like. It looks similar to HTML but is actually syntactic sugar for React.createElement() calls.
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+
+```
+
+#### Why Use JSX?
+
+1. Declarative UI: It allows you to write UI code that looks like HTML inside your JavaScript, making it easier to visualize the component structure.
+
+2. Power of JavaScript: You can embed JS expressions directly inside JSX using {}.
+
+3. Component-based: You can create and use custom React components as if they were HTML elements.
+
+
+
+
+
+
 
 
 
