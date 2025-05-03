@@ -66,4 +66,89 @@ function Counter() {
 
 ---
 
-## 
+#### setState
+
+
+setState in class components
+
+```jsx
+
+class Counter extends Component{
+
+  constructor(prop){
+    super(props);
+
+    this.state = {
+      count : 0
+    }
+  }
+
+  increment(){
+    this.setState(
+      {
+        count : this.state.count +1;
+      },
+      callbackFunc
+    )
+  }
+
+  callBackFun(){
+    //call back logic
+  }
+
+
+  
+}
+
+
+```
+
+
+#### Destructuring state and state
+
+Method 1
+```jsx
+
+const Greet=({name,heroName })=>{
+    return <h1>Hello {name} a.k.a {props.heroName}</h1>
+}
+
+
+```
+
+Method 2
+
+destructing in body
+
+```jsx
+
+const Greet=(props)=>{
+    const {name, heroName } = props;
+
+}
+
+
+```
+
+In class components we do it in render function
+
+```jsx
+
+render(){
+  const {name, heroName} = this.props; //this is for props
+  const {state1, state2} =this.state; //this is for state
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
