@@ -15,6 +15,6 @@ Description : This repository aims for revision of react basics followed by Next
 |03|JSX|[JSX](./React/Notes/Jsx.md)|
 |04|Props|[Props](./React/Notes/Props.md)|
 |05|State|[State](./React/Notes/State.md)|
-
+|06|Event Handling|[Event handling](./React/Notes/EventHandling.md)|
 
 ### NextJs
