@@ -34,7 +34,7 @@ class ClickHandler extends React.Component {
   constructor(props) {
     super(props);
     this.state = { message: "Hello" };
-    this.handleClick = this.handleClick.bind(this);
+    this.handleClick = this.handleClick.bind(this); //using bind
   }
 
   handleClick() {
